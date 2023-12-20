@@ -22,9 +22,9 @@ const stopAutomatic = () => {
 }
 
 const turnOn = {
-    'red': () => img.src = './img/vermelho.png',
-    'yellow': () => img.src = './img/amarelo.png',
-    'green': () => img.src = './img/verde.png',
+    'red': () => img.src = 'vermelho.png',
+    'yellow': () => img.src = 'amarelo.png',
+    'green': () => img.src = 'verde.png',
     'automatic': () => intervalId = setInterval( changeColor, 1000)
 }
 
